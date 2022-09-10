@@ -1,0 +1,335 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif !important;
+}
+
+.clr {
+    clear: both;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* ******header***** */
+.header,
+.social-feature-info {
+    width: 100%;
+    background-color: #ffff;
+}
+
+.container {
+    max-width: 1350px;
+}
+
+.img-logo {
+    width: 170px;
+    height: 40px;
+}
+
+.btn {
+    padding: 4px 32px;
+    border-radius: 16px;
+    color: #b4443a;
+    border-color: #b4443a;
+}
+
+.nav-link {
+    color: #837fa9;
+}
+
+.nav-item {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* banner */
+.banner {
+    width: 100%;
+    height: 500px;
+    background-color: #f8e7dd;
+
+}
+
+.banner {
+    width: 100%;
+    height: 800px;
+    background-color: #f8e7dd;
+    position: relative;
+
+}
+
+.banner img {
+    width: 100%;
+    position: absolute;
+    opacity: 0.5;
+    right: 49px;
+    height: 572px;
+    bottom: 0px;
+
+}
+
+.center-div,
+.center-newslatter {
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    line-height: 1.2;
+    z-index: 1;
+}
+
+.center-div h1,
+.match-head {
+    font-size: 3rem;
+    color: #3f3c76 !important;
+    font-weight: 800;
+
+}
+
+.center-div p {
+    color: #3f3c76 !important;
+    line-height: 1.6;
+}
+
+.our-information {
+    width: 100%;
+}
+
+.more-than-character {
+    width: 100%;
+}
+.thnker{
+    width: 208px;
+}
+.laugh{
+    width: 200px;
+    position: absolute;
+    top: -249px;
+}
+
+.line-h {
+    line-height: 1.5;
+}
+.share-btn{
+    position: absolute;
+    width: 61px;
+    border-radius: 17px;
+    border: 0;
+    background: red;
+    right: -1px;
+    color: #fff;
+}
+
+.anywhere {
+    margin-top: 65px;
+}
+.mb-image {
+    width: 100%;
+}
+.mb-image img {
+    width: 85%;
+    height: 633px;
+}
+.stn-img {
+    position: absolute;
+    right: 39%;
+    top: 198px;
+}
+/* our-newslatter */
+.our-newslatter {
+    width: 100%;
+    height: 70vh;
+    position: relative;
+    background-color: #fbeee5;
+}
+.center-newslatter {
+    line-height: 2.5;
+    width: 430px;
+}
+.center-newslatter h1 {
+    font-size: 2rem;
+    color: #3f3c76 !important;
+}
+.center-newslatter input {
+    width: 100%;
+    height: 43px;
+    padding: 4px 21px;
+    border-radius: 23px;
+    border: 0;
+    outline: 0;
+}
+.social-feature-info {
+    width: 100%;
+    background-color: #4b477c;
+}
+.footer-lgo img {
+    width: 150px;
+}
+.social-icn {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #fff;
+    margin-right: 5px;
+}
+.footer-head li {
+    font-size: 15px;
+}
+
+.footer-head li a {
+    text-decoration: none !important;
+}
+
+.footer-head li::before {
+    content: "\2022";
+    color: red;
+    display: inline-block;
+    width: 1em;
+    margin-left: 12px;
+    font-weight: 900;
+}
+
+@media only screen and (max-width: 768px) {
+    .footer-feature{
+        flex-direction: column;
+        line-height: 4.2;
+    }
+
+}
